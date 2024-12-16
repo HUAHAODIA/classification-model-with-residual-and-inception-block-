@@ -8,3 +8,5 @@ the image classification model uses residual block and inception model， integr
    The model will combine:(1)Residual Learning: Add skip connections to mitigate vanishing gradients.(2)Inception Module:Use filters of       varying sizes (1x1, 3x3, 5x5) and a bottleneck strategy to reduce parameters.(3)Depthwise Separable Convolutions: Efficient convolution    operations to reduce computational load.(4)Attention Mechanism:Implement a channel attention mechanism like Squeeze-and-Excitation        (SE) blocks.
 3. XAI
    this notebook uses GradCAM for XAI
+# The data source
+The data from: https://www.kaggle.com/datasets/pythonafroz/solar-panel-images/data
